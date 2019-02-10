@@ -13,8 +13,10 @@ public class LinkedQueue<E> extends ModifiableObservableListBase<E> implements I
     private int size = 0;
 
     private String name = "Sample";
-    
-    
+    private String abc = "abc";
+
+
+
     @Override
     public E get(int index) {
 
